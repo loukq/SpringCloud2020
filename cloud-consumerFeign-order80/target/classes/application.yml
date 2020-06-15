@@ -1,0 +1,29 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: orderConsumerFeign80
+    #    访问路径可以显示ip地址
+    prefer-ip-address: true
+
+#配置feign的超时时间
+ribbon:
+#  允许的读取的超时的时间
+  ReadTimeout: 5000
+#  允许的连接的超时时间
+  ConnectTimeOut: 5000
+
+spring:
+  application:
+    name: orderFeign
+
+#配置对哪个的接口的服务进行日志级别的设置
+logging:
+  level:
+    com.lou.springcloud.service.PaymentFeignService: debug
