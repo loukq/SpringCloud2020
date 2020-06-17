@@ -28,6 +28,17 @@
         <module>cloud-config-senter-3344</module>
         <module>cloud-config-center-3344</module>
         <module>cloud-config-center-3355</module>
+        <module>cloud-config-center-3366</module>
+        <module>cloud-stream-rabbitmq-provider8801</module>
+        <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-stream-rabbitmq-consumer8804</module>
+        <module>cloud-stream-rabbitmq-consumer8805</module>
+        <module>cloudalibaba-provider-9901</module>
+        <module>cloudalibaba-consumer-9902</module>
+        <module>cloudalibaba-provider-9902</module>
+        <module>cloudalibaba-consumer-83</module>
+        <module>cloudalibaba-config-nacos-3377</module>
     </modules>
 
 

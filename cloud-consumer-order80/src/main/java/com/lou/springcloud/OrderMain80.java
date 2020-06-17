@@ -11,7 +11,6 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 //RibbonClient指定自定义的rule的位置
 //@RibbonClient(name = "CLOUD-PAYMENT-SERVICE",configuration = MySelfRule.class)
 public class OrderMain80 {
-
     public static void main(String[] args) {
         SpringApplication.run(OrderMain80.class,args);
     }

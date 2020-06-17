@@ -1,0 +1,11 @@
+package com.lou.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MainConsumer8804 {
+    public static void main(String[] args) {
+        SpringApplication.run(MainConsumer8804.class,args);
+    }
+}

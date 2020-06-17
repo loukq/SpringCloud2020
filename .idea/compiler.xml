@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,7 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-center-3344" />
-        <module name="cloud-config-center-3355" />
+        <module name="cloud-config-center-3366" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order80" />
@@ -21,10 +22,26 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-stream-rabbitmq-consumer8804" />
+        <module name="cloud-stream-rabbitmq-consumer8805" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloudalibaba-config-nacos-3377" />
+        <module name="cloudalibaba-consumer-83" />
+        <module name="cloudalibaba-provider-9901" />
+        <module name="cloudalibaba-provider-9902" />
+      </profile>
+      <profile name="Annotation profile for cloud2020" enabled="true">
+        <sourceOutputDir name="../cloud-api-commons/cloud-config-center-3355/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cloud-api-commons/cloud-config-center-3355/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-center-3355" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-config-senter-3344" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloudalibaba-consumer-9903" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
