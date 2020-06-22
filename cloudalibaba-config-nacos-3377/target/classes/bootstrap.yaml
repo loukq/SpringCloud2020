@@ -10,6 +10,6 @@ spring:
       config:
         server-addr: 127.0.0.1:8848
         file-extension: yaml
-        group: TEST_GROUP #指定group
-        namespace: b8e7ba7c-802d-4ea8-a5cc-83dc781ccd48
+#        group: TEST_GROUP #指定group
+#        namespace: b8e7ba7c-802d-4ea8-a5cc-83dc781ccd48
 
