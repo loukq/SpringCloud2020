@@ -45,6 +45,8 @@ public class FlowLimitController {
     public String deal_testHotKey(String p1, String p2, BlockException blockException){
         return "deal_testHotKey";
     }
+
+
     @GetMapping(value = "/testHotKey2")
 //    value为命名的资源名，blockHandler定义的是兜底的方法
     @SentinelResource(value = "testHotKey2",

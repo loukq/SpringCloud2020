@@ -14,7 +14,6 @@
         <module>cloud-consumer-order80</module>
         <module>cloud-api-commons</module>
         <module>cloud-eureka-server7001</module>
-        <module>cloud.eureka-server7002</module>
         <module>cloud-eureka-server7002</module>
         <module>cloud-provider-payment8002</module>
         <module>cloud-providerconsul-payment8006</module>
@@ -25,20 +24,19 @@
         <module>cloud-consumer-feign-hystrix-order80</module>
         <module>cloud-consumer-hystrix-dashboard9001</module>
         <module>cloud-gateway-gateway9527</module>
-        <module>cloud-config-senter-3344</module>
         <module>cloud-config-center-3344</module>
         <module>cloud-config-center-3355</module>
         <module>cloud-config-center-3366</module>
         <module>cloud-stream-rabbitmq-provider8801</module>
-        <module>cloud-stream-rabbitmq-consumer8802</module>
-        <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8804</module>
         <module>cloud-stream-rabbitmq-consumer8805</module>
         <module>cloudalibaba-provider-9901</module>
-        <module>cloudalibaba-consumer-9902</module>
         <module>cloudalibaba-provider-9902</module>
         <module>cloudalibaba-consumer-83</module>
         <module>cloudalibaba-config-nacos-3377</module>
+        <module>cloudalibaba-provider-payment9003</module>
+        <module>cloudalibaba-provider-payment9004</module>
+        <module>cloudalibaba-consumer-nacos-order84</module>
     </modules>
 
 
