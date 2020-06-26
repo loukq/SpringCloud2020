@@ -2,6 +2,7 @@ package com.lou.springcloud.service;
 
 import com.lou.springcloud.domain.CommonResult;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -9,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "seata-storage-service")
 public interface StorageService {
 //    productId为扣减商品的id，count为扣减的数量
-    @PostMapping("/storage/decrease")
+    @GetMapping("/storage/decrease")
     CommonResult decrease(@RequestParam("productId")Long productId,@RequestParam("count")Integer count);
 }
